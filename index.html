@@ -7,57 +7,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surya Faturohman Personal Website</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <!-- END of head -->
 
 <!-- This is body -->
 <body>
+    <div class="container">
+        <!-- This is header -->
+        <header>
+            <h1>My Personal Website</h1>
+        </header>
+        <!-- END of header -->
 
-    <!-- This is navigation -->
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- END of navigation -->
+        <!-- This is main -->
+        <main>
+            <section class="bio-box">
+                <div>I'm Surya Faturohman</div>
+                <p>"I am from Bogor and the graduated student of a high school majoring in software engineering class on 2015 and also a graduate of Pakuan University majoring in computer science on 2022.</p>
+                <p>My motivation to join RevoU was to return to my former soul and enthusiasm, to code a program and upgrade my skills more in the field of software engineering."</p>
+                <!-- This is navigation -->
+                <nav>
+                    <span>
+                        <a href="#">Home</a>
+                    </span>
+                    <span>
+                        <a href="#">Contact</a>
+                    </span>
+                </nav>
+                <!-- END of navigation -->
+            </section>
 
-    <!-- This is header -->
-    <header>
-        <h1>Hello, My Name is Surya Faturohman ...</h1>
-    </header>
-    <!-- END of header -->
-
-    <!-- This is main -->
-    <main>
-        <section>
-            <p>I am a graduate of a high school majoring in software engineering class in 2015 and also a graduate of Pakuan University majoring in computer science in 2022.</p>
-        </section>
-
-        <section>
-            <img src="assets/img/img-1.jpg" alt="My Photo" width="250" height="250">
-        </section>
-
-        <section>
-            <p>My motivation to join RevoU was to return to my former soul and enthusiasm, to code a program and upgrade my skills again in the field of software engineering.</p>
-        </section>
-
-        <div>
-            <form>
-                <button> Say Hello !!! </button>
-            </form>
-        </div>
-    </main>
-    <!-- END of main -->
-
-    <!-- This is footer -->
-    <footer>Copyright © 2023</footer>
-    <!-- END of footer -->
-
+            <section class="img-box">
+                <img src="assets/img/img-1.jpg" alt="My Photo">
+                <form class="form-box">
+                    <button onclick="alert('Hello ... My Name is Surya Faturohman')"> Say Hello !!! </button>
+                </form>
+            </section>
+        </main>
+        <!-- END of main -->
+        <!-- This is footer -->
+        <footer>Copyright © 2023</footer>
+        <!-- END of footer -->
+    </div>    
 </body>
 <!-- END of body -->
 </html>
