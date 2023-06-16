@@ -51,18 +51,9 @@ main > section{
     float: left;
 }
 
-#bio-box1{
-    display: block;
-}
-
-#bio-box2{
-    display: none;
-}
-
 .bio-box{
     background-color: #5C469C;
-    margin-left: 5%;
-    margin-right: 3%;
+    margin-left: 8%;
     width: 750px;
     padding: 20px;
     border-radius: 10%;
@@ -106,8 +97,7 @@ nav span a:hover{
 }
 
 .img-box{
-    margin-right: 5%;
-    margin-left: 3%;
+    margin-left: 6%;
     margin-top: 1%;
     width: 250px;
 }
