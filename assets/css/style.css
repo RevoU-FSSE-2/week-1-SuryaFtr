@@ -51,6 +51,14 @@ main > section{
     float: left;
 }
 
+#bio-box1{
+    display: block;
+}
+
+#bio-box2{
+    display: none;
+}
+
 .bio-box{
     background-color: #5C469C;
     margin-left: 5%;
@@ -89,6 +97,12 @@ nav span a{
 nav span a:hover{
     background-color: #D4ADFC;
     color: #000;
+    transition: 0.5s;
+}
+
+.a-active{
+    background-color: #D4ADFC;
+    color: #000;
 }
 
 .img-box{
@@ -119,6 +133,7 @@ nav span a:hover{
 .img-box > form > button:hover{
     background-color: #0C134F;
     color: #FFF;
+    transition: 0.5s;
     cursor: pointer;
 }
 

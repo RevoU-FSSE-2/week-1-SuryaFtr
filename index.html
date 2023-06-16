@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surya Faturohman Personal Website</title>
 
+    <!-- Linked CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 <!-- END of head -->
 
@@ -24,17 +24,18 @@
 
         <!-- This is main -->
         <main>
-            <section class="bio-box">
-                <div>I'm Surya Faturohman</div>
+            
+            <section id="bio-box1" class="bio-box">
+                <div>About Me</div>
                 <p>"I am from Bogor and the graduated student of a high school majoring in software engineering class on 2015 and also a graduate of Pakuan University majoring in computer science on 2022.</p>
                 <p>My motivation to join RevoU was to return to my former soul and enthusiasm, to code a program and upgrade my skills more in the field of software engineering."</p>
                 <!-- This is navigation -->
                 <nav>
                     <span>
-                        <a href="#">Home</a>
+                        <a id="home" class="a-active" href="#" >Home</a>
                     </span>
                     <span>
-                        <a href="#">Contact</a>
+                        <a id="contact" href="#" >Contact</a>
                     </span>
                 </nav>
                 <!-- END of navigation -->
@@ -43,7 +44,7 @@
             <section class="img-box">
                 <img src="assets/img/img-1.jpg" alt="My Photo">
                 <form class="form-box">
-                    <button onclick="alert('Hello ... My Name is Surya Faturohman')"> Say Hello !!! </button>
+                    <button onclick="clickMe()"> Say Hello !!! </button>
                 </form>
             </section>
         </main>
@@ -51,7 +52,10 @@
         <!-- This is footer -->
         <footer>Copyright © 2023</footer>
         <!-- END of footer -->
-    </div>    
+    </div>
+
+    <!-- Linked Javascript -->
+    <script type="text/javascript" src="assets/js/style.js"></script>    
 </body>
 <!-- END of body -->
 </html>
