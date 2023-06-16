@@ -2,8 +2,6 @@ function clickMe(){
     window.alert("Hello ... My Name is Surya Faturohman");
 }
 
-
-
 document.getElementById("contact").addEventListener("click", showHideContact);
 function showHideContact() {
     document.getElementById("contact").classList.add("a-active");
